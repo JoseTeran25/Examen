@@ -1,0 +1,162 @@
+.header{
+    background-color: #1b6894;
+    height: 60px;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*general*/
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+.normal{
+    font-size: 16px;
+}
+.descripcion{
+    font-size: 12px;
+}
+.color-secundario{
+    background-color: #A45C09;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+nav{
+    height: 60px;
+}
+
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+}
+nav ul li a:hover{
+    color: #FFFF00;
+}
+.banner p{
+    margin-left: 222px;
+    color: #FFF;
+}
+.banner i {
+    margin-right: 300px;
+ }
+.contenedor-opciones{
+    margin-left: auto;
+    margin-right: 80px;
+}
+
+
+/*main*/
+
+.contenedorGeneralBiografia{
+    display: flex;
+    gap: 20px;
+}
+body main section{
+    margin-left: 122px;
+    margin-right: 122px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.contenedorImagen{
+    margin-left: 50px;
+    padding: 20px;
+}
+.contenedorImagen img{
+    border-radius: 50%;
+    border: 5px solid #1b6894;
+}
+
+.contenedorBiografia{
+    padding-left: 100px;
+    width: 500px;
+
+}
+.boton{
+    padding: 0 30px 0 30px;
+    color: #FFF;
+    height: 40px;
+}
+
+/*proyectos*/
+.contenedor-Proyectos{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    gap: 20px;
+}
+.titulo{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.item-proyecto{
+    width: 351px;
+    height: 303px;
+}
+
+/*formulario*/
+.contenedorForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenedorForm label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+.contenedorForm input,
+.contenedorForm textarea {
+    width: 100%;
+    margin-bottom: 15px; 
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #d9d9d9;
+}
+
+.contenedorFormulario{
+    
+    width: 300px
+}
+
+
+/*footer*/
+
+.footer {
+    background-color: #1b6894;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-izquierda{
+    margin-left: 30px;
+}
+
+.footer-derecha{
+    margin-right: 30px;
+}
